@@ -1,0 +1,79 @@
+*{
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container{
+    min-height: 100vh;
+    background: rgb(188, 231, 188);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-bottom: 60px;
+}
+
+
+
+.container form{
+    background: rgb(141, 241, 141);
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0,0,0,.1);
+    padding: 20px;
+    padding-top: 40px;
+    width: 600px;
+}
+
+.container form .inputbox span{
+display: block;
+color: #444;
+padding-bottom: 5px;
+}
+
+.container form .inputbox input,
+.container form .inputbox select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid rgba(209, 57, 57, 0.3);
+    color:#444;
+}
+.container form .flexbox{
+display: flex;
+gap: 15px;
+
+}
+.container form .flexbox .inputbox{
+    flex: 1 1 150px;
+    color: red;
+    
+}
+.container form .submit-btn{
+    width: 100%;
+    background-color:rgb(18, 240, 18);
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s linear;
+    border-radius: 10px;
+    
+}
+.container form .submit-btn:hover{
+    letter-spacing: 2px;
+    opacity: 8;
+}
+
+
+
+
+
+
+
