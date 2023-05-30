@@ -1,0 +1,41 @@
+img .img1 {
+  height: 40vh;
+  width: 100%;
+  margin-top: 10vh;
+  opacity: 0.8;
+  transition: transform 0.2s;
+  margin-left: 38%;
+  box-shadow: 5px 5px rgb(199, 194, 213);
+}
+
+.divhead .divh {
+  background-image: url("../assets/images/PNG/pics.png");
+  background-repeat: no-repeat;
+  background: 100vw;
+  background-size: contain;
+  width: 100vw;
+  height: 90vh;
+  margin-top: 1vh;
+  opacity: 0.2;
+  margin-left: 10vw;
+  position: absolute;
+  z-index: -1;
+}
+button {
+  background-color: red;
+  color: whitesmoke;
+  border-radius: 5px;
+  height: fit-content;
+  padding: 5px 5px;
+  margin-inline-end: -30vw;
+}
+.p1 {
+  font-size: 1em;
+  z-index: 2;
+  opacity: 2;
+}
+.divhead {
+  position: relative;
+  z-index: 1;
+  opacity: 1;
+}
