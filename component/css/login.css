@@ -1,0 +1,37 @@
+.log_container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: inherit;
+}
+
+.left_side {
+  background-color: blue;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.right_side {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.ptag {
+  justify-content: space-around;
+}
+
+.ptag :first-child {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.ptag :nth-child(2) {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.forget {
+  margin-bottom: 500px;
+}
