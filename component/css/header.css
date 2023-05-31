@@ -28,6 +28,7 @@ button {
   height: fit-content;
   padding: 5px 5px;
   margin-inline-end: -30vw;
+  border-color: white;
 }
 .p1 {
   font-size: 1em;
