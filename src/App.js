@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Heading from "./Components/jsx/Body.jsx/Heading";
+import Header from "./Components/jsx/Headers.jsx/Header";
+import Login from "./Components/jsx/Headers.jsx/Login";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Secondbody from "./Components/jsx/Headers.jsx/Secondbody";
+import CarouselComponent from "./Components/jsx/Headers.jsx/CarouselComponent";
+import SignUpComponent from "./Components/jsx/Headers.jsx/SignUpComponent";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Routes>
+        <Route path=  "signup" element={<SignUpComponent />} />
+          {/* <Route exact path="/" element={<Heading />} /> */}
+
+          <Route exact path="/header" element={<Header/>}/>
+          <Route exact path="/heading" element={<Heading />} />
+          <Route path="/login" element={<Login />} />
+          <Route path ="/secondbody" element= {<Secondbody/>}/>
+          <Route path ="/carouselcomponent" element={<CarouselComponent/>}/>
+
+          
+        </Routes>
+      </Router>
     </div>
   );
 }

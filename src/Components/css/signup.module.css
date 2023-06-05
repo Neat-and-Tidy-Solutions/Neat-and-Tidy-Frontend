@@ -1,0 +1,41 @@
+.page2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.p2img2 {
+  width: 100%;
+  height: auto;
+  margin-top: 10%;
+}
+
+.p2rightside {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+
+.welcome2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: -100px;
+}
+
+.signupby {
+  margin-bottom: 20px;
+  margin-top: -24px;
+  border-radius: 5px;
+}
+
+.p1rightsidediv2 {
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+  margin-top: -20px;
+}
+.dont {
+  color: grey;
+  margin-top: 10px;
+  width: 1px;
+}

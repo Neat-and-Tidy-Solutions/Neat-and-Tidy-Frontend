@@ -1,0 +1,49 @@
+nav {
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 4em;
+    width: 60vw;
+    margin-top: 3em;
+  }
+  a {
+    color: rgb(21, 21, 224);
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bolder;
+    justify-content: space-between;
+    width: 12vw;
+  }
+  h2 {
+    color: blue;
+    font-size: 2em;
+    margin-left: 10vw;
+    display: none;
+  }
+  a:hover {
+    color: rgb(132, 156, 241);
+  }
+  img {
+    height: 40px;
+    width: 4vw;
+  }
+  .first {
+    box-shadow: 0px 10px rgb(235, 239, 241);
+  }
+  @media (max-width: 1000px) {
+    img {
+      display: none;
+    }
+  }
+  @media (max-width: 720px) {
+    a {
+      display: none;
+    }
+    nav {
+      justify-content: space-between;
+    }
+    h2 {
+      display: block;
+    }
+  }
